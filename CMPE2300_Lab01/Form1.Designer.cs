@@ -37,6 +37,7 @@
             this.toolStripComboBox1 = new System.Windows.Forms.ToolStripComboBox();
             this.UI_GoButton = new System.Windows.Forms.ToolStripButton();
             this.toolStripProgressBar1 = new System.Windows.Forms.ToolStripProgressBar();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             ((System.ComponentModel.ISupportInitialize)(this.UI_PictureBox)).BeginInit();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -93,7 +94,7 @@
             "Decode Text"});
             this.UI_DecodeComboBox.Name = "UI_DecodeComboBox";
             this.UI_DecodeComboBox.Size = new System.Drawing.Size(121, 25);
-            this.UI_DecodeComboBox.Text = "Decode Item";
+            this.UI_DecodeComboBox.Text = "Decode Image";
             // 
             // toolStripComboBox1
             // 
@@ -120,6 +121,10 @@
             this.toolStripProgressBar1.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
             this.toolStripProgressBar1.Name = "toolStripProgressBar1";
             this.toolStripProgressBar1.Size = new System.Drawing.Size(100, 22);
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
             // 
             // Form1
             // 
@@ -149,6 +154,7 @@
         private System.Windows.Forms.ToolStripComboBox toolStripComboBox1;
         private System.Windows.Forms.ToolStripButton UI_GoButton;
         private System.Windows.Forms.ToolStripProgressBar toolStripProgressBar1;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
     }
 }
 
